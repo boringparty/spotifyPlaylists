@@ -27,3 +27,13 @@ In this case it spits out the bands I referenced, so I ask it to branch out. The
 It isn't perfect with apostrophes all the time, but for the most part its great. 
 
 Ultimately, I found over the last year or so that Spotify's recommendations are a bit of an echo chamber and I've been trying to pump new music into the algo... with little success. This has a lot of the stuff I already listen to, but I think attacking it via genre instead of specific artists will yield fresh music. 
+
+# Usage
+
+1. update `tracks.txt` with the playlist name in the first row then the `artist - title`
+2. run `python playlist.py`
+
+If you want a list of tracks,
+
+1. get the id for the playlist
+2. run `python getList.py 1234567890abcdef`
